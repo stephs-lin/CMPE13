@@ -1,0 +1,7 @@
+slin41@ucsc.edu Stephanie Lin
+
+The purpose of the lab was to understand how stacks and queues work by building a reverse polish notation calculator. We were given a struct for the stack and were assigned to make stack functions with it such as pop and push. Using pointers, we pushed and popped data from the stack for our calculator. The calculations were basic operators which was not difficult to code. Next, we return the result or print error message from the main function. Learning how to use pointers is really important because it can get confusing. Stacks and queues were pretty intuitive but learning how to actually build a function reinforced the concepts.
+
+My approach was to first build the stack functions and test them using the test harness. After testing them, I implemented the tokenization. After the tokenization was functioning correctly, I worked on the calculator. I tested the rpn using th rpn test harness. I had a few difficult bugs that were hard to find. If I gave myself more time, I would have finished the lab and on time. Building the stack functions and tokenization was easy but for some reason, the checks for operators took the most time. I talked to a student who had the same problem as me and suggested that I null the end of my tokens which helped.
+
+I did not have time to finish the ProcessBackspace or correctly print. I spent about 3 to 4 days working on it but I should have spent more time. I found debugging painful because I couldn't see the bugs. There should be extra credit for the ProcessBackspace. 
